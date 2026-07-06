@@ -3,7 +3,7 @@ import LoginPage             from "./components/Login/LoginPage";
 import ProtectedRoute        from "./components/ProtectedRoute";
 import PlantManagerDashboard from "./components/PlantManager/PlantManagerDashboard";
 import DeptManagerDashboard  from "./components/DeptManager/DeptManagerDashboard";
-import AdminDashboard        from "./components/admin/AdminDashboard";
+import AdminDashboard        from "./components/Admin/AdminDashboard";
 import MaintenanceDashboard  from "./components/maintenance/MaintenanceDashboard";
 import OperatorDashboard from "./components/Operator/OperatorDashboard";
 
