@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080/admin/employee";
+const BASE_URL = "https://amce.up.railway.app/admin/employee";
 
 function authHeaders() {
   const token = localStorage.getItem("authToken");

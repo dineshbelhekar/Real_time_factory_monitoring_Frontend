@@ -3,7 +3,7 @@ import "./MaintenanceDashboard.css";
 import { acceptAlert, completeAlert } from "../../api/maintenanceApi";
 import { loadWSDeps } from "../../utils/wsLoader";
 
-const WS_URL   = "http://localhost:8080/ws";
+const WS_URL   = "https://amce.up.railway.app/ws";
 const WS_TOPIC = "/user/queue/messages";
 
 /* ─── Icons ──────────────────────────────────────────────────────────────── */

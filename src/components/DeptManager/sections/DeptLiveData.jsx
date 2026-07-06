@@ -2,7 +2,7 @@ import { useEffect, useRef, useState, useMemo, useCallback } from "react";
 import { getDeptLiveData } from "../../../api/deptApi";
 import { loadWSDeps } from "../../../utils/wsLoader"; // ✅ shared loader — no double loading
 
-const WS_URL      = "http://localhost:8080/ws";
+const WS_URL      = "https://amce.up.railway.app/ws";
 const WS_TOPIC    = "/user/queue/messages";
 const FALLBACK_MS = 30000;
 

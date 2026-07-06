@@ -218,7 +218,7 @@ export default function LoginPage() {
     setError("");
 
     try {
-      const res = await fetch("http://localhost:8080/user/login", {
+      const res = await fetch("https://amce.up.railway.app/user/login", {
         method:  "POST",
         headers: { "Content-Type": "application/json" },
         body:    JSON.stringify({
